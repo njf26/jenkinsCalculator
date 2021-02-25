@@ -3,7 +3,6 @@ public class Main {
   public static void main(String args[]) {
 
     Calculator calc = new Calculator();
-
     if ("add".equals(args[0])) {
       System.out.println(calc.add(Integer.parseInt(args[1]), Integer.parseInt(args[2])));
     } else if ("subtract".equals(args[0])) {
